@@ -1,44 +1,40 @@
-# Strings - characters wrapped in quotations. 
+# Strings -  Anything wrapped in quotation marks. 
+# quote STRING the data together. 
 
-"this is a string."
+"Ian"
+"123 main street"
+"123-232-2333"
+"#@RVWREFG23"
 
-"Ian Kimble"
+# Comments - invisible text that only 
+# humans can read and see
+# comments are created with the hashtag symbol (#)
 
-"19129292"
+# Integers - whole numbers. 
+10
+120
+34000
 
-"this is also a string eoihfewoihvoiewvoiewbvoiewbvoiewbvoiuw/"
+# Floats - decimal numbers
+0.1
+20.03
+30.234
+10.0
+10.000001232
 
-"@#$#@$@#%@#$"
-
-"new change"
-
-
-# This is a comment. It is message that only humans can see. 
-# it is invisible to the computer. 
-
-# Integers - number values that can only be whole numbers. 
-1010
-32939828948923
-32894732984732
-0
-1
-2345
-
-# Floats - number values that can only be decimal numbers.
-10.10
-23.38924
-0.001
-
-
-# Boolean - is a value that can be either true or false. 
+# Boolean - values that represent true and false
 True
-False
+False 
+
 0
 1
 
-# variables - containers for data
+""
+"abc"
 
-schoolName = 'Boys Latin'
-address = '123 Main street'
-phone = 2159999999
+# Variable = a container for data.
+# to create variable, we first give it a name,
+# then we assign it a value (data).
+
+schoolName = "boys latin"
 
