@@ -1,12 +1,11 @@
 # Comments
 # text written after the hashtag are called comments.
 # this text is invisible to the computer 
-# and only for humans to read
+# and only for humans to read- comments are not a data type.
 
 # Syntax
 # Syntax is the rules of the programming language.
 # Syntax describes how we write and structure or code.
-
 
 # Data types
 # Data types are the most fundamental building block
@@ -26,8 +25,7 @@
 "Good morning. Have a good day."
 "215-333-1111" # numbers can be strings
 "myemail@email.com" 
-"123@@@007"# anything wrapped in quotes is considered a string
-
+"123@@@007" # anything wrapped in quotes is considered a string
 
 # Integers
 # Integer is a data type that represents whole numbers.
@@ -55,3 +53,7 @@
 # Examples
 True
 False
+0 # false
+1 # true
+"" # false
+"eifhewoifh" # true
