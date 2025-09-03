@@ -1,23 +1,21 @@
-# Built in Functions - pre-written code that is stored
+# Built-In Functions - Pre-written code that is stored
 # in the programming language. So long as you know the 
-# keyword you can use its power. 
+# keyword you can use it's power. 
 
-# Float() -Allows us to change whole numbers into decimals
-priceOfDrink = 10
-nameOfDrink ='water' # strings are special case, 
-# string numbers can work but string characters cannot
+print('Ian')
 
-print(float(priceOfDrink))
-# print(float(nameOfDrink))
+# input() function - this is a built-in function that allows users to
+# type data into a program and assign it to a variable. the newly 
+# inputted data will ALWAYS be treated as a STRING.
 
-# int()- Allows us to change decimals into whole numbers.
-interestRate = 7.891 
-nameOfCredit = "Ian Bank"
-
-print(int(interestRate))
-
-# str()- Allows us to change data into strings.
-# it wraps quotes around the data.
+# time = input('Good morning. what time is it? ')
 
 
-print(str(1000))
+# when we combine 2 or more strings together with the plus sign.
+# it is called string concatenation 
+# print('The current time is ' + time)
+
+number = input('give me a number to calculate: ')
+
+print(30 + float(number))
+
