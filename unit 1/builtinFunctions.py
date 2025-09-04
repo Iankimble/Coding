@@ -3,19 +3,25 @@
 # keyword you can use it's power. 
 
 print('Ian')
+print(399)
+print(True)
 
-# input() function - this is a built-in function that allows users to
-# type data into a program and assign it to a variable. the newly 
-# inputted data will ALWAYS be treated as a STRING.
+# input() function - this is a built-in function that allows 
+# users to type data into a program and assign it to a variable. 
+# SPECIAL NOTE: the newly inputted data will 
+# ALWAYS be treated as a STRING.
 
-# time = input('Good morning. what time is it? ')
+#name = input('What is your name ')
+
+# String concatenation is where you can combine 2 or more strings
+# together using the plus symbol. 
+# print('Good Morning '+ name )
+
+number = input('Give me a number and Ill add 30 to it: ')
+
+print(int(number) + 30)
 
 
-# when we combine 2 or more strings together with the plus sign.
-# it is called string concatenation 
-# print('The current time is ' + time)
+data = [1,2,3,4,32,4344]
 
-number = input('give me a number to calculate: ')
-
-print(30 + float(number))
-
+harddrive = ["hp.jpg","song.mp3",[1,23,23,234,]]
