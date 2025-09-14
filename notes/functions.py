@@ -25,3 +25,17 @@ def math():
     print(int(a)- + b)
 
 math()
+# Create a function that calculates 2 unique user inputted numbers
+
+def calculate():
+    a = input('Please enter a number: ') 
+    b = input('Please enter another number: ')
+    print(int(a) + int(b))
+    print(int(a) - int(b))
+    print(int(a) / int(b))
+    print(int(a) * int(b))
+    print(int(a) % int(b))
+    print(int(a) ** int(b))
+    print(int(a) // int(b))
+
+calculate()
