@@ -7,6 +7,7 @@
 # - If you have a question about a quiz question, please raise your hand
 # - Once finished, submit your code to your repository using the source control 
 # button. Your commit should be "completed quiz 1."
+"For all written responses, your answer should be formatted as a string"
 
 # 1. Name and describe three (3) built-in functions in python. 
 # Please write your responses in complete sentences.
@@ -15,7 +16,7 @@
 # 2. What data type will the following snippet of code output?
 print(30/ 232)
 
-# 3.  Identify and name the operator family each of the following
+# 3. Identify and name the operator family each of the following
 # symbols belongs to.
 
 # and
