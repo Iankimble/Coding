@@ -5,6 +5,8 @@
 # Conditional Statement Syntax
 # if keyword - Controls the condition we want to satisfy.
 
+# elif keyword - same thing as the if keyword.  n
+
 # else keyword - Our default outcome. The thing that
 # happens when our conditions are NOT satisfied. 
 
