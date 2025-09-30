@@ -22,7 +22,7 @@ example2()
 def math():
     a = input('enter a number: ')
     b = 10
-    print(int(a)- + b)
+    print(int(a) + b)
 
 math()
 # Create a function that calculates 2 unique user inputted numbers
