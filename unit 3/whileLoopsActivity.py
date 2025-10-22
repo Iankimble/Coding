@@ -26,7 +26,6 @@ numberLoop()
 # to stop your loop hit crtl + c
 
 
-
 # Activity 2
 # Create a function that will continue to take in a number, 
 # and when a user confirms they are done entering a number 
