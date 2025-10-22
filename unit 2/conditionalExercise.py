@@ -19,4 +19,12 @@
 # age <= 13, price= $10.00
 # age >= 14, price= $15.00
 # age >= 25, price= $20.00
-# age >= 55, price= $10.00 
+# age >= 55, price= $10.00    
+ 
+
+# nested conditionals
+# login system --> access your documents
+
+# movie system
+# based on age --> see different list of movies
+# atm machine --> type in pin --> select from various options- deposit, withdraw, and check balance
