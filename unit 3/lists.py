@@ -21,7 +21,7 @@ print(shoppingCart[2])
 
 shoppingCart.append("orange")
 
-#print(shoppingCart)
+# print(shoppingCart)
 
 def addItemToCart():
     bestBuyCart= ['8k Monitor','Graphics Card', 'Speakers', 'pro controller']
@@ -45,14 +45,13 @@ def removeItemToCart():
 # The new number should be passed into your function as a parameter. 
 # The number you will add is 60. 
 
+# --> search w3schools for python list methods
+
 numbersList = [100, 23, 450, 63, 1, 6, 19, 1000]
 
-def addAndSort(newNumber):
-    numbersList.append(newNumber) # new number has been added. 
-    numbersList.sort() # just add sort, and we are done.   
-    print(numbersList) # just telling the computer to print
 
-addAndSort(60)
+
+
 
 
 
