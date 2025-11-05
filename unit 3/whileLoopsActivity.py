@@ -57,7 +57,7 @@ def guessTheNumber():
                 print('number too low')
                 userGuess= int(input('Guess the correct number'))    
     else:
-        print("Congrats you guessed correct! ")
+        w("Congrats you guessed correct! ")
 
 guessTheNumber()
           
