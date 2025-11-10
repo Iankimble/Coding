@@ -3,14 +3,25 @@
 
 halloweenBag = ['Snickers','Hershey Bar','Twizzler','Candied Apple','Candy corn']
 
-count = len(halloweenBag)
+# count = len(halloweenBag)
 
-print(count)
+# print(count)
 
 # i is a variable and is short for iterator. 
-for i in halloweenBag:
-    print(i)
-    print('I go this candy in my bag ' + i)
+# for i in halloweenBag:
+#     print(i)
+#     print('I got this candy in my bag ' + i)
+
+def tf():
+    for x in range(3): 
+        print('true or false: 3 is greater than 2')
+        answer = input()
+        if answer != 'true':
+            print('wrong, try again')
+            print('attempt: '+ str(x))
+        else:
+            print('great!')
+            break # stops the loop. regardless of it being a for or while loop
 
 
 # Use a for loop to ask a user to type in 5 words and print each word out in
@@ -22,6 +33,61 @@ for i in halloweenBag:
 # should do this 5 times.
 
 # Hint # 1: you should use the range() function.
+# for x in range(5):
+#     word = input("Please type in a word: ")
+#     print(word)
+
+
+# looping throuh strings
+# word = "Python"
+# for letter in word:
+#     print(letter)
+
+
+# looping through lists of numbers 
+shoppingPrices = [3.00, 5.40, 7.20, 9.00, 10.40, 11.00]
+total = 0
+
+for items in shoppingPrices:
+    total += items
+    print(total)
+
+print(total)
+
+
+
+
+
+
+
+def schoolAttedenceSys():
+    studentBody=  ['jordan','joel','devonte','...']
+
+    present =[]
+    absent =[]
+    scannedIn = True
+    for student in studentBody:
+        print('Is '+ student + 'scanned in today?')
+        response = input()
+
+    # if student =! scannedIn
+    # move to absent list
+    # absent.append(student)
+    # else put them in the present List
+    # present. append(student)
+
+
+
+
+def greet(name):
+    return "Hi " + name
+print(greet("Ian"))
+
+
+
+
+
+
 
 # Create a function that uses a for loop to find the largest number. 
 # Your user should be able to type in 5 numbers. 
