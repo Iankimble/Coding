@@ -1,4 +1,4 @@
-# create a new document called python review and answer the following
+# create a new document called pythonReview.py and answer the following
 # questions. 
 
 # Question 1
