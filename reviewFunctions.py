@@ -5,7 +5,9 @@
 # Build a program that determines if a student has submitted their class work 
 # and homework assignment. The program should use an operator that allows 
 # for evaluating 2 conditions and determining if the conditions are true 
-# or false , then answer the following questions: 
+# or false.
+
+# hint: find the a operator that allows you to evaluate 2 condtions.
 
 # Question 2
 # Create a function that will take in a string as an argument and output 
@@ -23,3 +25,5 @@
 # it should tell them it is too low and to guess again. Once the user gets 
 # it correct the program should congratulate them, stop, and tell them how 
 # many attempts they made.
+
+    
