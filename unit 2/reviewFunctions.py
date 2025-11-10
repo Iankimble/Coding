@@ -1,3 +1,6 @@
+# create a new document called python review and answer the following
+# questions. 
+
 # Question 1
 # Build a program that determines if a student has submitted their class work 
 # and homework assignment. The program should use an operator that allows 
