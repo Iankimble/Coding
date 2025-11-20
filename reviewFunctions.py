@@ -27,3 +27,41 @@
 # many attempts they made.
 
     
+'function'
+'take in numbers from user'
+
+'evaluate numbers if it is too high or tool low --> comparision'
+
+'code need to repeat until correct answer is made - while loop'
+
+'count how many attempts were made'
+
+def numberGuessingGame():
+    correctNumber = 9
+    attempt = 0
+    guess = int(input("Please guess a number? "))
+    while guess != correctNumber:
+        if guess > correctNumber:
+            print('Incorrect. Number too high. Please guess again')
+            guess = int(input("Please guess a number? "))
+            attempt += 1
+        elif guess < correctNumber:
+            print('Incorrect. Number too low. Please guess again')
+            guess = int(input("Please guess a number? "))   
+            attempt += 1
+
+    print("Correct!")
+    print("attempts = " + str(attempt))    
+
+# numberGuessingGame()
+
+
+def checkout():
+    groceryBag = [1, 20, 3, 6, 7]
+    total = 0
+
+    for item in groceryBag:
+        total += item
+        print(total)
+
+
