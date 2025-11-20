@@ -1,4 +1,6 @@
-#Please make a new document called rps.py and Develop ideas and 
+import random
+
+# Please make a new document called rps.py and Develop ideas and 
 # analyze the requirements for a rock, paper, scissor game. 
 
 # For the ideation phase, write down 3 things your rock, paper, 
@@ -13,7 +15,6 @@
 "- could add it to yours"
 
 "4. If you win 3 straight its an automatic win"
-
 
 'multi-player'
 'reset game option'
@@ -59,3 +60,39 @@
 'Step. 7: (LOOP) Show the user the RPS options and they will continue to play up until round 4.'
 'step 7.5: check if the user has won consective rounds- if they win 3 straight- give them a special message'
 'Step. 8: Determine and inform the user if they won and return them to the main menu'
+
+# development
+
+def rpsGame():
+    rpsOptions_cpu = ["rock", "paper", "scissor"]
+
+    print("Welcome to Rock Paper Scissor: the game!")
+    print("Please select one of the following:")
+    print('Enter p to start game,')
+    print('Enter r to see the rules')
+    selection = input()
+    if selection == 'r':
+        print("here are the game rules ...")
+    elif selection == 'p':
+        print('the game is starting...')
+        choiceUser = input("please make selection, r= rock, p= paper, s= scissor")
+        choiceCpu = random.choice(rpsOptions_cpu)
+        # make a way to show the full selection word ; example: if s, 
+        # the program should print scissor
+        if choiceUser == 'r':
+            selectWord = rpsOptions_cpu[0]
+            print('user selected: ' + selectWord)
+            print('cpu selected: '+ choiceCpu)
+        elif choiceUser == 'p':
+            selectWord = 'paper'
+            print('user selected: ' + selectWord)
+            print('cpu selected: '+ choiceCpu)
+        elif choiceUser == 's':
+            selectWord = 'scissor'
+            print('user selected: ' + selectWord)
+            print('cpu selected: '+ choiceCpu)
+    else:
+        print("Sorry, we didnt understand your entry.")
+
+
+rpsGame()

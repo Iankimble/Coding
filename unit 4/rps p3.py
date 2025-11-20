@@ -1,3 +1,5 @@
+import random
+
 #Please make a new document called rps.py and Develop ideas and 
 # analyze the requirements for a rock, paper, scissor game. 
 
@@ -59,3 +61,49 @@
 "8. loop these actions 4 times. The player with the highest point wins."
 "9. inform the user if they won or loss, show them the final score and give them"
 "the option to play again or quite."
+
+# development
+
+# future dev features
+# loop for menu
+# human vs human local / coach co-op multi- player
+
+def rpsGame():
+    rpsOptiions = ["rock", "paper", "scissor"]
+    print('Welcome to RPS: the Game!')
+    print('***************************')
+    print("Please select from the following options: ")
+    print('1. Start Game')
+    print('2. Game Rules')
+    print("3. Quit")
+    selection = input()
+    if int(selection) == 1:
+        print('the game is starting...')
+        print("Please select a game mode: ")
+        print('1. vs. human')
+        print('2. vs. cpu')
+        gameMode = int(input())
+        if gameMode == 1:
+            print("Coming soon. sorry  : / ")
+        else:
+            print("Game is starting!")
+            print('***************************')
+            print("Please make a selection:")
+            print('1. Rock')
+            print("2. Paper")
+            print('3. Scissor')
+            userSelection = input()
+            cpuSelection = random.choice(rpsOptiions)
+            print('user selected : ' + userSelection)
+            # modify this code so that instead of seeing the number for the user selection we see the word
+            # example 1 should print out rock
+            print('cpu selected : ' + cpuSelection)
+
+    elif int(selection) == 2:
+        print('Game Rules...')
+    elif int(selection) == 3:
+        print("Good bye...")
+    else:
+        print('ERROR: Invalid selecton. Please select a listed option from the menu.')
+
+rpsGame()
