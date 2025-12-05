@@ -12,6 +12,7 @@ def pythonQuiz():
         grade += 1
     else: 
         print("Incorrect")
+         
     print('2. True or false; 0 and 1 can be used as boolean values?')
     print('A. True')
     print('B. False')
@@ -60,5 +61,65 @@ def pythonQuiz():
     else: 
         print("Incorrect")  
         print(" here is your score:  " + str(grade) + "/ 5")
+
+    print('6. Which of the following are numerical data types?')
+    print('A. integer')
+    print('B. boolean')
+    print('C. list')
+    print('D. string')
+    userAnswer = input()
+    # print('this is what the user typed : ' + userAnswer)
+    correctAnswer = 'a'
+    if userAnswer == correctAnswer:
+        print("Correct")
+        grade += 1
+    else: 
+        print("Incorrect")  
+
+    print('7. Which data type uses quotations to wrap character together?')
+    print('A. boolean')
+    print('B. integer')
+    print('C. variables')
+    print('D. strings')
+    userAnswer = input()
+    # print('this is what the user typed : ' + userAnswer)
+    correctAnswer = 'd'
+    if userAnswer == correctAnswer:
+        print("Correct")
+        grade += 1
+    else: 
+        print("Incorrect") 
+
+    print('8. Which of the following symbols belongs to the comparison operator family?')
+    print('A. - ')
+    print('B. > ')
+    print('C. = ')
+    print('D. * ')
+    userAnswer = input()
+    # print('this is what the user typed : ' + userAnswer)
+    correctAnswer = 'b'
+    if userAnswer == correctAnswer:
+        print("Correct")
+        grade += 1
+    else: 
+        print("Incorrect") 
+
+    print('9. Which method can be used to remove white from the beginning and end of a string? ')
+    print('A. pTrim() ')
+    print('B. strip() ')
+    print('C. len() ')
+    print('D. trim() ')
+    userAnswer = input()
+    # print('this is what the user typed : ' + userAnswer)
+    correctAnswer = 'b'
+    if userAnswer == correctAnswer:
+        print("Correct")
+        grade += 1
+    else: 
+        print("Incorrect")
+
+        print(" here is your score:  " + str(grade) + "/ 5")
+
+
 
 pythonQuiz()
