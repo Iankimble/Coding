@@ -13,7 +13,7 @@ def gpaCalculator():
     week = 1
     sum = 0
     while week != 10:
-        print('Please  enter the grade for week : '+ str(week))
+        print('Please enter the grade for week : '+ str(week))
         grade = int(input())
         sum += grade
         week += 1
