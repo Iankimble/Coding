@@ -12,26 +12,23 @@ def gpaCalculator():
     subject=  input()
     print('the user typed in: ' + subject)
 
-    sum= 0
+    sum = 0
     weekcount= 1
-    while weekcount != 6:
+    # while weekcount != 17: # Change this line of code from using a WHILE loop into using a FOR loop
+    for weekcount in range(1,17): 
         print('what is the grade for week '+ str(weekcount))
         grade = int(input())
-        # print('the user entered: '+ str(grade))
         sum += grade
-        # print('total sum = ' + str(sum))
         weekcount += 1
         gpa = sum / weekcount
         print('your gpa is :' + str(gpa))
-        if gpa > 70 and gpa <80:
+        if gpa > 70 and gpa < 80:
             print("C")
-        elif gpa > 80 and gpa<90:
+        elif gpa > 80 and gpa < 90:
             print("B")
         elif gpa > 90 and gpa < 100:
             print("A")  
 gpaCalculator()
-
-
 
     # wk1 = int(input("please type the grade for week 1: "))
     # wk2 = int(input("please type the grade for week 2: "))
