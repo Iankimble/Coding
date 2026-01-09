@@ -39,3 +39,15 @@ def wordScrambler():
         print("Sorry, you lose.")
 
 wordScrambler()
+
+def userLogin_app(username, password):
+    # API call to the data -->
+    # req validation 
+    # res
+    # 
+    # 
+def resetPassword(newpassword, oldpassword, user)
+    
+def lockaccount(username, password)
+def sendUserInfo() 
+     
