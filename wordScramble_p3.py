@@ -12,7 +12,7 @@ import random
 
 def wordScrambler():
     wordPool = ["latitude",'arithmetic','sophisticated','pyscosis']
-    correctWord =''
+    correctWord =""
 
     print("Welcome to scrambled! ")
     randomSelect = random.randint(0,3)
@@ -27,27 +27,36 @@ def wordScrambler():
         correctWord = wordPool[3]
     
     convertedString = list(correctWord)
-
+    
     random.shuffle(convertedString)
     scrambled = "".join(convertedString)
-    print("Please guess the correct word: " + scrambled)
-    userGuess = input()
-
-    if userGuess == correctWord:
-        print("You Win!")
-    else:
-        print("Sorry, you lose.")
-
-wordScrambler()
-
-def userLogin_app(username, password):
-    # API call to the data -->
-    # req validation 
-    # res
-    # 
-    # 
-def resetPassword(newpassword, oldpassword, user)
     
-def lockaccount(username, password)
-def sendUserInfo() 
-     
+
+# While Loop Solution
+    attempts = 0
+    while attempts != 3:
+        print("Please guess the correct word: " + scrambled)
+        userGuess = input()
+
+        if userGuess == correctWord:
+            print("You Win!")
+            break
+        else:
+            print("Sorry, you lose.")
+            attempts += 1 
+
+# For Loop Solution
+    for  attempts in range(1,4):
+        print("Please guess the correct word: " + scrambled)
+        userGuess = input()
+        if userGuess == correctWord:
+            print("You Win!")
+            print('this is your ' + str(attempts))
+            break
+        else:
+            print("Sorry, you lose.")
+            print('this is your ' + str(attempts))
+
+
+wordScrambler()   
+  

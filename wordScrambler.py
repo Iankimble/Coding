@@ -10,6 +10,7 @@ import random
 # and show the user the number of attempts they have
  
 def scrambleWordGame():
+  
     wordPool = ["pennsylvania", "north carolina", "congregate", "function"]
     print("Welcome to Word Scramble!")
     
@@ -25,15 +26,37 @@ def scrambleWordGame():
     elif randomWordSelect == 3:
         correctWord = wordPool[3]
 
-    convertedSelction = list(correctWord)
+    convertedSelction = list(correctWord) 
     random.shuffle(convertedSelction)
     scrambled = "".join(convertedSelction)
 
-    print("Guess the correct word: " + scrambled)
-    userGuess = input()
-    if userGuess == correctWord:
-        print("Congrats! that is correct")
-    else: 
-        print("Sorry, that is incorrect.")
+# While Loop solution
+    guess = 1
+    while guess !=4:
+        print("Guess the correct word: " + scrambled)    
+        userGuess = input()
+       
+        if userGuess == correctWord:
+            print("Congrats! that is correct")
+            print("number of guesses "+ str(guess))
+            guess = 4
+        else: 
+            print("Sorry, that is incorrect.")
+            print("number of guesses "+ str(guess))
+            guess += 1
+
+# For loop Solution 
+    # for guess in range(1,4):
+    #     print("Guess the correct word: " + scrambled)    
+    #     userGuess = input()
+       
+    #     if userGuess == correctWord:
+    #         print("Congrats! that is correct")
+    #         print("number of guesses "+ str(guess))
+    #         break
+    #     else: 
+    #         print("Sorry, that is incorrect.")
+    #         print("number of guesses "+ str(guess))
 
 scrambleWordGame()
+ 
