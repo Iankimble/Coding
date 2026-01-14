@@ -20,7 +20,9 @@ def payCheckFilter(payRate, hours, daysWorked):
     print('retirement balance: '+ str(retirementAccount))
     print('checking balance: ' + str(checkingAccount))
     
-payCheckFilter(45.00, 8, 5)
+#payCheckFilter(45.00, 8, 5)
+
+
 
 # Run the following code in your terminal. 
 # Once you've confirmed the code works, make the following code adjustments:
@@ -29,12 +31,14 @@ payCheckFilter(45.00, 8, 5)
 # - DO NOT replace the existing code. You are to create NEW Additional code
 
 # 1. Surge pricing - If surge pricing is true, the base fare is increased by .75
-# 2. Ride Discount - if the user has a discount, reduce the total/ final ride price by 15%
-# 3. Long distance rate - if the miles exceed 10, the cost per mile increases to 3.50
+# 2. Ride Discount - if the user has a discount, reduce the total/ final ride 
+# price by 15%
+# 3. Long distance rate - if the miles exceed 10, the cost 
+# per mile increases to 3.50
 
 def rideShareCalculator(miles):
     base_fare = 3.00
     cost_per_mile = 2.00
-    return base_fare + (miles * cost_per_mile)
+    print ('The final price for this ride is $' + str(base_fare + (miles * cost_per_mile)))
     
-
+rideShareCalculator(2)
