@@ -58,5 +58,4 @@ def wordScrambler():
             print('this is your ' + str(attempts))
 
 
-wordScrambler()   
-  
+#wordScrambler()   
